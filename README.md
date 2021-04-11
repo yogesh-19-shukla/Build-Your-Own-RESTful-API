@@ -1,6 +1,9 @@
 # Build-Your-Own-RESTful-API
 
 Example Documents
+
+
+
 {
     "_id" : ObjectId("5c139771d79ac8eac11e754a"),
     "title" : "API",
@@ -23,6 +26,8 @@ Example Documents
 
 
 Server Starting Code
+
+
 //jshint esversion:6
 
 const express = require("express");
@@ -39,7 +44,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-//TODO
+
 
 app.listen(3000, function() {
   console.log("Server started on port 3000");
@@ -48,6 +53,8 @@ app.listen(3000, function() {
 
 
 Re-populate Database
+
+
 
 {
     "_id" : "5c18e1892998bdb3b3d355bf",
